@@ -4,14 +4,13 @@
 }
 
 body {
-  background-color: #f6f8fc;
+  background-color: #c1f3f3;
 }
 
 .content {
-  width: 100vw;
-  height: 100vh;
   padding: 1rem;
-  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
 }
 
 @media screen and (min-width: 992px) {
@@ -21,4 +20,18 @@ body {
       margin: 1rem auto;
       border-radius: 1rem;
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.back-button {
+  cursor: pointer;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #333;
 }

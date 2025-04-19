@@ -1,5 +1,5 @@
-function changeColor (pokeButton) {
-    pokeButton.classList.toggle('click');
+function changeColor (likeButton) {
+    likeButton.classList.toggle('click');
 } 
 
 const urlParams = new URLSearchParams(window.location.search);

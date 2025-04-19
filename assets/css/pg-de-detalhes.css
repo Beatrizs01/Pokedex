@@ -1,9 +1,9 @@
 * {
-    font-family: 'Ralewayt', serif;
+    font-family: 'Roboto', serif;
     box-sizing: border-box;
 }
 
-body {
+.pokemon .body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -20,7 +20,7 @@ body {
     margin: 2rem 2rem 0 2rem; 
 }
 
-#back-button, .lovebutton {
+#back-button, .likeButton {
     border: none;
     background-color: transparent;
     padding: 0;
@@ -30,14 +30,14 @@ body {
     fill: #FFFFFF;
 }
 
-.lovebutton svg {
+.likeButton svg {
     stroke: #FFFFFF;
     fill: transparent;
     display: block;
     margin: auto;
 }
 
-.lovebutton.click svg {
+.likeButton.click svg {
     stroke:red;
     fill: red;
 }
