@@ -1,5 +1,5 @@
-function changeColor (lovebutton) {
-    lovebutton.classList.toggle('click');
+function changeColor (pokeButton) {
+    pokeButton.classList.toggle('click');
 } 
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -21,7 +21,7 @@ const getPokemonData = async () => {
     document.querySelector('.powers #pokemon-powers').innerHTML = types;
 
     // Dados adicionais
-    const speciesEn = dataSpecies.genera.find(g => g.language.name === 'en');
+    const speciesEn = dataSpecies.genera.find(g => g.language.name === 'pt BR');
     document.getElementById('pokemon-species').innerText = speciesEn.genus;
     document.getElementById('pokemon-height').innerText = `${data.height / 10} cm`;
     document.getElementById('pokemon-weight').innerText = `${data.weight / 10} kg`;
