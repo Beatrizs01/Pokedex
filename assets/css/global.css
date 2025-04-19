@@ -23,3 +23,16 @@ body {
     }
   }
 
+  .hidden {
+    display: none;
+  }
+
+  .back .button{
+    cursor: pointer;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+  }

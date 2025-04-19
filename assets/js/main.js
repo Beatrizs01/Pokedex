@@ -42,3 +42,7 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+function goToDetails(pokemonId) {
+    window.location.href = `stats.html?id=${pokemonId}`;
+}

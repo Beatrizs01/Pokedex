@@ -36,8 +36,8 @@ function convertPokemonToHtml(pokemon) {
         `;
 }
 
-async function loadPokemonData(pokemonId) {
-    const pokemon = await fetchPokemonData(pokemonId);
+async function loadPokemonData(pokeId) {
+    const pokemon = await fetchPokemonData(pokeId);
     if (pokemon) {
         const pokemonInfo = document.getElementById('pokemonStat')
         pokemonInfo.innerHTML = convertPokemonToHtml(pokemon);

@@ -1,3 +1,6 @@
+.pokemon .content {
+    margin-top: 1rem;
+}
 
 .normal { 
     background-color: #a6a877; 
@@ -63,7 +66,7 @@
 .pokemon .name {
     text-transform: capitalize;
     text-decoration: solid;
-    color: #000;
+    color: black;
     margin-bottom: .25rem;
     font-size: 2rem;   
 }
@@ -109,7 +112,7 @@
     top: -450px;
 }
 
-.pokemon .status {
+.pokemon .stats {
     background-color: #fff;
     border-radius: .6rem;
     margin-top: -1.5rem;
@@ -117,9 +120,15 @@
     position: relative;
 }
 
-.pokemon .status .detail {
+.pokemon .stats .title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.5rem 1rem;
+}
+
+.pokemon .stats .detail {
     padding: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     text-align: center;
     font-size: .9rem;
     list-style: none;
@@ -127,10 +136,6 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-.pokemon .content {
-    margin-top: 1rem;
 }
 
 .pokemon .back_btn {
