@@ -44,5 +44,5 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 function goToDetails(pokemonId) {
-    window.location.href = `stats.html?id=${pokemonId}`;
+    window.location.href = `details.html?id=${pokemonId}`;
 }

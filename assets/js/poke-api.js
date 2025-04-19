@@ -34,19 +34,3 @@ pokeApi.getPokemons = (offset = 0, limit = 10) => {
             .then((pokemonDetails) => pokemonDetails)
             
 } 
-
-async function fetchPokemonData(pokeId) {
-    const url = `https://pokeapi.co/api/v2/pokemon/${pokeId}`
-
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error("Erro ao buscar informações deste Pokémon");
-        }
-        const pokemon = await response.json();
-        return pokemon;
-      } catch (error) {
-        console.error("Erro ao buscar informações deste Pokémon:", error);
-        return null;
-      }
-}

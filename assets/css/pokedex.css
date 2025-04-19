@@ -60,22 +60,6 @@
     height: fit-content;
 }
 
-.pokemon .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -30px;
-}
-
-.pokemon .logo .photo {
-    width: 200px;
-    height: auto;
-}
-
-.pokemon .hover {
-    transform: scale(1.05);
-}
-
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -102,7 +86,7 @@
 .pokemon .name {
     text-transform: capitalize;
     color: #000;
-    margin-bottom: 0;
+    margin-bottom: .25rem;
 }
 
 .pokemon .detail {
@@ -169,4 +153,12 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr; 
     }
+}
+
+.pagination button:hover { 
+    cursor: pointer;
+}
+
+.click:hover {
+    cursor: pointer;
 }
