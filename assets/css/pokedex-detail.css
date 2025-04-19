@@ -1,0 +1,152 @@
+
+.normal { 
+    background-color: #a6a877; 
+}
+.grass { 
+    background-color: #44bea4; 
+}
+.fire { 
+    background-color: #cf501e; 
+}
+.water { 
+    background-color: #15b8d4; 
+}
+.electric { 
+    background-color: #e0d85c; 
+}
+.ice { 
+    background-color: #a3e0e2; 
+}
+.ground { 
+    background-color: #dfbf69; 
+}
+.flying { 
+    background-color: #a98ff0; 
+}
+.poison { 
+    background-color: #a040a0; 
+}
+.fighting { 
+    background-color: #bf3029; 
+}
+.psychic { 
+    background-color: #f65887; 
+}
+.dark { 
+    background-color: #725847; 
+}
+.rock { 
+    background-color: #b8a137; 
+}
+.bug { 
+    background-color: #a8b720; 
+}
+.ghost { 
+    background-color: #6e5896; 
+}
+.steel { 
+    background-color: #b9b7cf; 
+}
+.dragon { 
+    background-color: #6f38f6; 
+}
+.fairy { 
+    background-color: #f9aec7; 
+}
+
+.pokemon .number {
+    color: #000;
+    float: right;
+    font-size: 6rem;
+}
+
+.pokemon .name {
+    text-transform: capitalize;
+    text-decoration: solid;
+    color: #000;
+    margin-bottom: .25rem;
+    font-size: 2rem;   
+}
+
+.pokemon .detail .type {
+    padding: 0;
+    margin-top: .25rem;
+    margin-bottom: 2rem;
+    list-style: none;
+}
+
+.pokemon .detail .types .type {
+    color: #fff;
+    padding: .25rem 1rem;
+    font-size: .8rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
+    width: fit-content;
+    display: inline-block;
+}
+
+.pokemon .detail .photo {
+    z-index: 3;
+    display: block;
+    margin: auto;
+    height: 300px;
+    max-width: 100%;
+    position: relative;
+}
+
+.pokemon .background .photo {
+    height: 300px;
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 12%;
+
+    /* centralização da img na horz e vert */
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: -450px;
+}
+
+.pokemon .status {
+    background-color: #fff;
+    border-radius: .6rem;
+    margin-top: -1.5rem;
+    z-index: 2;
+    position: relative;
+}
+
+.pokemon .status .detail {
+    padding: 1rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: .9rem;
+    list-style: none;
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pokemon .content {
+    margin-top: 1rem;
+}
+
+.pokemon .back_btn {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding: 6px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pokemon .back_btn .hover {
+    background-color: #c1c1c1;
+    transform: scale(1.05);
+}
