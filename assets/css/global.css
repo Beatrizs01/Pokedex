@@ -1,17 +1,10 @@
 * {
-    font-family: "Roboto", sans-serif ;
-    box-sizing: border-box;
+  font-family: 'Raleway', serif;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
-}
-
-.content {
-    height: 100vh;
-    width: 100vw;
-    padding: 1rem;
-    background-color: #fff;
+  background-color: #f6f8fc;
 }
 
 #main-title {
@@ -19,25 +12,20 @@ body {
   letter-spacing: 1px;
 }
 
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
 @media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem; 
-    }
+  .content {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
   }
-
-  .hidden {
-    display: none;
-  }
-
-  .back .button{
-    cursor: pointer;
-    margin: 1rem;
-    padding: .5rem 1rem;
-    background: none;
-    border: none;
-    font-size: 1.2rem;
-    color: #333;
-  }
+}
