@@ -122,15 +122,15 @@
 
 .pokemon .stats .title {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 2.5rem 1rem;
 }
 
 .pokemon .stats .detail {
     padding: 1rem;
     padding-bottom: 3rem;
-    text-align: center;
-    font-size: .9rem;
+    text-align: left;
+    font-size: .20rem;
     list-style: none;
     margin-top: -2rem;
     display: flex;
