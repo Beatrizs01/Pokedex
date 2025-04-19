@@ -14,11 +14,13 @@ const getPokemonData = async () => {
     document.getElementById('pokemon-name').innerText = data.name;
     document.getElementById('pokemon-number').innerText = `#${data.id}`;
     document.getElementById('pokemon-photo').src = data.sprites.other.dream_world.front_default;
-    
+
+    // Tipos 
 
     const types = data.types.map((type) => `<li>${type.type.name}</li>`).join('');
     document.querySelector('.powers #pokemon-powers').innerHTML = types;
 
+    // Dados adicionais
     const speciesEn = dataSpecies.genera.find(g => g.language.name === 'en');
     document.getElementById('pokemon-species').innerText = speciesEn.genus;
     document.getElementById('pokemon-height').innerText = `${data.height / 10} cm`;
