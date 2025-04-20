@@ -131,6 +131,17 @@
     border-radius: 1rem;
 }
 
+#loadMoreButton {
+    padding: .5rem .75rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
