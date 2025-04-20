@@ -20,24 +20,24 @@
     margin: 2rem 2rem 0 2rem; 
 }
 
-#back-button, .likeButton {
+.back-button .likeButton {
     border: none;
     background-color: transparent;
     padding: 0;
 }
 
-#back-button svg {
+.back-button .svg {
     fill: #FFFFFF;
 }
 
-.likeButton svg {
+.likeButton .svg {
     stroke: #FFFFFF;
     fill: transparent;
     display: block;
     margin: auto;
 }
 
-.likeButton.click svg {
+.likeButton .click .svg {
     stroke:red;
     fill: red;
 }
@@ -53,14 +53,14 @@
     gap: 1rem;
 }
 
-#pokemon-name {
+.pokemon-name {
     font-size: 1.7rem;
     color: white;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
 
-#pokemon-number {
+.pokemon-number {
     align-self: flex-end;
     color: #FFFFFF;
     font-weight: bolder;
@@ -88,7 +88,7 @@
     width: 100%;
 }
 
-#pokemon-photo {
+.pokemon-photo {
     max-width: 50%;
 }
 
@@ -138,13 +138,13 @@
     grid-column: 2 / 2;
 }
 
-#breeding {
+.breeding {
     font-weight: bolder;
     grid-column: 1 / 3;
     align-self: center;
 }
 
-#pokemon-abilities, #pokemon-egg-groups {
+.pokemon-abilities, #pokemon-egg-groups {
     text-transform: capitalize;
 }
 
@@ -162,6 +162,7 @@
 .title {
     color: #086897c7;
 }
+
 
 .info {
     color: #0c0c0c;

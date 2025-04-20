@@ -55,6 +55,11 @@
     background-color: #f9aec7; 
 }
 
+.pokemon .img{
+    display: block;
+    margin: auto;
+    width: 50%;
+  } 
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -126,17 +131,6 @@
     margin: .25rem 0;
     font-size: .625rem;
     color: #000;
-    background-color: #6c79db;
-    border: none;
-    border-radius: 1rem;
-}
-
-#loadMoreButton {
-    padding: .5rem .75rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    font-weight: bold;
-    color: #fff;
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
