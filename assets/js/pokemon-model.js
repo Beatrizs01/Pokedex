@@ -4,4 +4,11 @@ class Pokemon {
     type;
     types = [];
     photo;
+
+     // Added code below
+     species;
+     height;
+     weight;
+     abilities = [];
+     egg_groups;
 }
