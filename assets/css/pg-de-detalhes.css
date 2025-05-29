@@ -28,7 +28,7 @@ body {
     width: auto;
     position: absolute;
     z-index: 1;
-    opacity: 0.1;
+    opacity: 0.04;
     
     /* Centraliza horizontal e verticalmente */
     top: -250px;
