@@ -15,9 +15,27 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .icons {
     align-items: center;
     margin: 2rem 2rem 0 2rem; 
+}
+
+.background-img {
+    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.1;
+    
+    /* Centraliza horizontal e verticalmente */
+    top: -250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 #back-button, .likebutton {
@@ -95,7 +113,7 @@ body {
 .about-character {
     max-width: 100%;
     margin: 1rem;
-    background-color: #fdfffe;
+    background-color: #FFFFFF;
     border-radius: 1.25rem; 
     padding: 2.25rem 1rem 0 1rem;
 }

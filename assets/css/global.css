@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #e46363;
+  background-color: #249682;
 }
 
 #main-title {
@@ -19,6 +19,10 @@ body {
   background-color: #fff;
   font-weight: bold;
   letter-spacing: 0.5px;
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (min-width: 992px) {
